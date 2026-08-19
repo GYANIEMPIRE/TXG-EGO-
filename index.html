@@ -3,107 +3,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Team Tornado Community</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="glow glow-one"></div>
-  <div class="glow glow-two"></div>
+  <!-- Animated Background -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
 
-  <header class="hero">
-    <div class="container">
-
-      <div class="logo">TEAM TORNADO</div>
-
-      <h1>TEAM TORNADO <span>COMMUNITY</span></h1>
-
-      <p class="welcome">Welcome to Team Tornado,</p>
-
-      <p class="intro">
-        Your trusted platform for fast, real, and working social media solutions.
-      </p>
-
-      <a href="#services" class="main-button">Explore Services</a>
-
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-dot"></span>
+      TEAM TORNADO
     </div>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#support">Support</a>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+
+    <div class="hero-badge">
+      TEAM TORNADO COMMUNITY
+    </div>
+
+    <h1>
+      Welcome to
+      <span>Team Tornado</span>
+    </h1>
+
+    <p class="welcome-message">
+      Providing trusted social media support with a focus on speed,
+      reliability, and professional assistance.
+    </p>
+
   </header>
 
 
+  <!-- Services -->
   <main class="container" id="services">
 
-    <section class="card">
-      <h2>🛡 Social Media Recovery & Removal Services ✅</h2>
-
-      <section class="services-grid">
-
-  <!-- Instagram Box -->
-  <div class="service-box">
-    <div class="service-icon"></div>
-
-    <h2>Instagram Platform Removels,</h2>
-
-    <ul>
-      <li>• Permanent Instagram Account Removals</li>
-      <li>• Manual unbans Available</li>
-      <li>• Instant unban Available</li>
-      <li>• Instagram Video Removels,</li>
-      <li>• Instagram Story Removels,</li>
-      <li>• Instagram Account Recovery</li>
-    </ul>
-  </div>
+    <div class="section-heading">
+      <span>OUR SERVICES</span>
+      <h2>Social Media Solutions</h2>
+    </div>
 
 
-  <!-- Telegram Box -->
-  <div class="service-box">
-    <div class="service-icon"></div>
+    <section class="services-grid">
 
-    <h2>Telegram Platform Removels</h2>
+      <!-- Instagram -->
+      <article class="service-box floating-one">
 
-    <ul>
-      <li>• Telegram Account Removal & Unbans</li>
-      <li>• Telegram Channels & Groups Removals</li>
-      <li>• Telegram Channels & Groups Recovery</li>
-      <li>• Telegram Bots Removels</li>
-    </ul>
-  </div>
+        <div class="service-top">
+          <div class="service-icon">📸</div>
+          <div class="service-number">01</div>
+        </div>
 
-</section>
+        <h3>Instagram Platform Removels,</h3>
 
-     
-    
+        <ul>
+          <li>• Permanent Instagram Account Removals</li>
+          <li>• Manual unbans Available</li>
+          <li>• Instant unban Available</li>
+          <li>• Instagram Video Removels,</li>
+          <li>• Instagram Story Removels,</li>
+          <li>• Instagram Account Recovery</li>
+        </ul>
 
-    <section class="card support-card">
+      </article>
+
+
+      <!-- Telegram -->
+      <article class="service-box floating-two">
+
+        <div class="service-top">
+          <div class="service-icon">✈️</div>
+          <div class="service-number">02</div>
+        </div>
+
+        <h3>Telegram Platform Removels</h3>
+
+        <ul>
+          <li>• Telegram Account Removal & Unbans</li>
+          <li>• Telegram Channels & Groups Removals</li>
+          <li>• Telegram Channels & Groups Recovery</li>
+          <li>• Telegram Bots Removels</li>
+        </ul>
+
+      </article>
+
+    </section>
+
+
+    <!-- Support -->
+    <section class="support-card" id="support">
+
+      <div class="support-label">
+        TEAM SUPPORT
+      </div>
 
       <h2>• Team Support - Deals Contact</h2>
 
-      <div class="buttons">
+      <div class="support-buttons">
 
         <a
           href="https://t.me/TeamTornadoSupport"
           target="_blank"
           rel="noopener noreferrer"
-          class="telegram-button"
+          class="telegram-btn"
         >
-          <span></span>
-          Support Channel
+          <span class="telegram-icon">✈</span>
+          <span>
+            <small>CONTACT</small>
+            Support Channel
+          </span>
         </a>
+
 
         <a
           href="https://t.me/TXGTAKEDOWN"
           target="_blank"
           rel="noopener noreferrer"
-          class="telegram-button secondary"
+          class="telegram-btn"
         >
-          <span></span>
-          Official Admin
+          <span class="telegram-icon">✈</span>
+          <span>
+            <small>CONTACT</small>
+            Official Admin
+          </span>
         </a>
 
       </div>
 
 
-      <p class="deal">
+      <div class="contact-details">
+
+        <p>
+          Support ChannelS : @TeamTornadoSupport
+        </p>
+
+        <p>
+          Official Admin : @TXGTAKEDOWN
+        </p>
+
+      </div>
+
+
+      <p class="deal-text">
         ( My Team's • Only Work Paid Deals • ) [ Bans / Unbans Easy ]
       </p>
 
@@ -112,6 +173,15 @@
   </main>
 
 
+  <!-- Footer -->
   <footer>
-    © 2026 Team Tornado Community. All rights reserved.
+    <div class="footer-line"></div>
+
+    <p>
+      © 2026 Team Tornado Community. All rights reserved.
+    </p>
   </footer>
+
+
+</body>
+</html>
